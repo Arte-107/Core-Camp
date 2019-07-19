@@ -40,16 +40,16 @@
         android:text="Help and Support"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp" />
-
+        tools:layout_editor_absoluteY="158dp"
+        tools:ignore="MissingConstraints"/>
     <Button
         android:id="@+id/button3"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Campus"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="206dp" />
-
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints"/>
     <Button
         android:id="@+id/button4"
         android:layout_width="395dp"
