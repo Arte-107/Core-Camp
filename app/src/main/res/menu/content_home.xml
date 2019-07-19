@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/ic_icon"
+        android:title="ACCOUNT"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/ic_icon"
+        android:title="STUDENT ID"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/item6"
+        android:title="CLUBS/ACTIVITY"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/ic_icon"
+        android:title="NAVIGATION"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item6"
+        android:title="TRANSPORTATION"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item6"
+        android:title="REDEEM/DISCOUNT"
+        app:showAsAction="never">
+
+
+    <item
+        android:id="@+id/item6"
+        android:title="CLASS GROUPCHAT"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/subitem1"
+                android:title="HISTORY " />
+
+            <item
+                android:id="@+id/subitem2"
+                android:title="GOVERNMENT 2" />
+
+        </menu>
+
+    </item>
+
+</menu>
