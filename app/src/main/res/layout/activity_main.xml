@@ -17,8 +17,8 @@
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="+id/toolbar"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore=
+        app:layout_constraintStart_toStartOf="parent"/>
+
 
     <Button
         android:id="@+id/button"
@@ -37,34 +37,52 @@
 
     <Button
         android:id="@+id/button2"
+<<<<<<< HEAD
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Help and Support"
+=======
         android:layout_width="405dp"
         android:layout_height="45dp"
         android:text="Help & Support"
+>>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp" />
-
+        tools:layout_editor_absoluteY="158dp"
+        tools:ignore="MissingConstraints"/>
     <Button
         android:id="@+id/button3"
         android:layout_width="410dp"
         android:layout_height="43dp"
         android:text="Campus"
+<<<<<<< HEAD
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints"/>
+=======
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="203dp" />
 
+>>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
     <Button
         android:id="@+id/button4"
         android:layout_width="408dp"
         android:layout_height="42dp"
         android:text="Accounts"
+<<<<<<< HEAD
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
+=======
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="246dp" />
 
+>>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
     <Button
         android:id="@+id/button5"
         android:layout_width="407dp"
