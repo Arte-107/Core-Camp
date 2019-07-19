@@ -15,8 +15,8 @@
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="+id/toolbar"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore=
+        app:layout_constraintStart_toStartOf="parent"/>
+
 
     <Button
         android:id="@+id/button"
@@ -37,7 +37,7 @@
         android:id="@+id/button2"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:text="Help & Support"
+        android:text="Help and Support"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="158dp" />
@@ -56,8 +56,8 @@
         android:layout_height="wrap_content"
         android:text="Accounts"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="254dp" />
-
+        tools:layout_editor_absoluteY="254dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/button5"
         android:layout_width="395dp"
