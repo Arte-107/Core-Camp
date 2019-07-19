@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".discounts">
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="youtube"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/Whataburger"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Whataburger"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/Netflix"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Netflix"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/Hulu"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Hulu"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Button
+        android:id="@+id/Pizzahut"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="Pizzahut"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
