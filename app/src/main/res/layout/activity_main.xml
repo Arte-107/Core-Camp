@@ -68,7 +68,6 @@
         android:layout_width="407dp"
         android:layout_height="45dp"
         android:text="Notifications"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
@@ -94,10 +93,4 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="302dp"
         tools:ignore="MissingConstraints" />
-
-
-
-
-
->>>>>>> c85e1a4f9ed82a808917647298f26a950252ea77
 </androidx.constraintlayout.widget.ConstraintLayout>
