@@ -24,7 +24,7 @@
         android:layout_height="47dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
-        android:text="Language"
+        android:text="@string/language_page_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -35,70 +35,44 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="405dp"
+        android:layout_height="45dp"
         android:text="Help & Support"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="158dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="410dp"
+        android:layout_height="43dp"
         android:text="Campus"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="203dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="408dp"
+        android:layout_height="42dp"
         android:text="Accounts"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="246dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="407dp"
+        android:layout_height="45dp"
         android:text="Notifications"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="302dp"
-        tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="E-Mail"
-        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="280dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="411dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Log-in"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="486dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="290dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -110,4 +84,20 @@
         app:layout_constraintVertical_bias="0.178"
         app:srcCompat="@android:drawable/arrow_down_float"
         tools:layout_editor_absoluteX="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" /
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="302dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+>>>>>>> c85e1a4f9ed82a808917647298f26a950252ea77
 </androidx.constraintlayout.widget.ConstraintLayout>
