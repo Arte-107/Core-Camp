@@ -42,14 +42,6 @@
         android:text="Help and Support"
         tools:layout_editor_absoluteX="-12dp"
         tools:layout_editor_absoluteY="281dp" />
-        android:layout_width="405dp"
-        android:layout_height="45dp"
-        android:text="Help & Support"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp"
-        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button3"
@@ -58,9 +50,6 @@
         android:text="Campus"
         tools:layout_editor_absoluteX="-14dp"
         tools:layout_editor_absoluteY="193dp" />
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button4"
@@ -69,13 +58,6 @@
         android:text="Accounts"
         tools:layout_editor_absoluteX="-13dp"
         tools:layout_editor_absoluteY="158dp" />
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="254dp"
-        tools:ignore="MissingConstraints" />
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="246dp" />
 
     <Button
         android:id="@+id/button5"

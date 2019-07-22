@@ -1,45 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item1"
         android:icon="@drawable/ic_icon"
-
         android:title="ACCOUNT"
-        android:title="@string/settings"
-     cdee8bf69c78851121eb8d52fa4846864a0279f5
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item2"
         android:icon="@drawable/ic_icon"
         android:title="STUDENT ID"
         app:showAsAction="ifRoom" />
 
 
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item3"
         android:title="CLUBS/ACTIVITY"
         app:showAsAction="never" />
 
 
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item4"
         android:icon="@drawable/ic_icon"
         android:title="NAVIGATION"
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item5"
         android:title="TRANSPORTATION"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/item6"
         android:title="REDEEM/DISCOUNT"
-        app:showAsAction="never">
+        app:showAsAction="never"/>
 
 
     <item
-        android:id="@+id/item6"
+        android:id="@+id/item7"
         android:title="CLASS GROUPCHAT"
         app:showAsAction="never">
 
