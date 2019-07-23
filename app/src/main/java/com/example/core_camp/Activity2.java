@@ -1,6 +1,7 @@
 package com.example.core_camp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class Activity2 extends AppCompatActivity {
