@@ -19,6 +19,9 @@
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Whataburger"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="351dp" />
 
@@ -27,6 +30,9 @@
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Netflix"
+        app:layout_constraintTop_toBottomOf="@id/Whataburger"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="282dp" />
 
@@ -37,12 +43,19 @@
         android:text="Hulu"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="412dp" />
-
     <Button
         android:id="@+id/Pizzahut"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Pizzahut"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="143dp"
+
+    <Button
+        android:id="@+id/subway"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="subway"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="143dp" />
 
