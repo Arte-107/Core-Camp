@@ -37,61 +37,38 @@
 
     <Button
         android:id="@+id/button2"
-<<<<<<< HEAD
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
-        android:text="Help and Support"
-=======
-        android:layout_width="405dp"
+        android:layout_width="400dp"
         android:layout_height="45dp"
-        android:text="Help & Support"
->>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp"
-        tools:ignore="MissingConstraints"/>
+        android:text="Help and Support"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="281dp" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="410dp"
         android:layout_height="43dp"
         android:text="Campus"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints"/>
-=======
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="203dp" />
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="193dp" />
 
->>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
     <Button
         android:id="@+id/button4"
         android:layout_width="408dp"
         android:layout_height="42dp"
         android:text="Accounts"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="254dp"
-        tools:ignore="MissingConstraints" />
-=======
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="246dp" />
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="158dp" />
 
->>>>>>> cdee8bf69c78851121eb8d52fa4846864a0279f5
     <Button
         android:id="@+id/button5"
         android:layout_width="407dp"
         android:layout_height="45dp"
         android:text="Notifications"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="290dp" />
+        tools:layout_editor_absoluteY="236dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -109,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="0dp" /
+        app:layout_constraintGuide_begin="0dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="302dp"
         tools:ignore="MissingConstraints" />
