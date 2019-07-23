@@ -13,4 +13,6 @@
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_home">home</string>
     <string name="account">ACCOUNT</string>
+    <string name="please_choose_one">Please choose one!</string>
+    <string name="clubs">Clubs</string>
 </resources>
