@@ -49,6 +49,14 @@
         android:layout_height="wrap_content"
         android:text="Pizzahut"
         tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="143dp"
+
+    <Button
+        android:id="@+id/subway"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="subway"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="143dp" />
 
 
