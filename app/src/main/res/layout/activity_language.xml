@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".languageActivity">
+
+    <Button
+        android:id="@+id/BtnActivityLanguage"
+        android:layout_width="395dp"
+        android:layout_height="70dp"
+        android:layout_cenetrInParent="true"
+        android:text="Language"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126dp"
+        android:layout_height="0dp"
+        android:text="Selected Language:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-84dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select New:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="398dp" />
+    tools
+</androidx.constraintlayout.widget.ConstraintLayout>
