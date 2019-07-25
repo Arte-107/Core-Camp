@@ -17,67 +17,52 @@
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="+id/toolbar"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="409dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:text="@string/language_page_title"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="400dp"
-        android:layout_height="45dp"
+        android:layout_width="410dp"
+        android:layout_height="39dp"
         android:text="Help and Support"
-        tools:layout_editor_absoluteX="-12dp"
-        tools:layout_editor_absoluteY="281dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.046"
+        tools:layout_editor_absoluteX="2dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="410dp"
-        android:layout_height="43dp"
+        android:layout_width="409dp"
+        android:layout_height="45dp"
         android:text="Campus"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:layout_editor_absoluteY="193dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="256dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="408dp"
-        android:layout_height="42dp"
+        android:layout_width="418dp"
+        android:layout_height="45dp"
         android:text="Accounts"
-        tools:layout_editor_absoluteX="-13dp"
-        tools:layout_editor_absoluteY="158dp" />
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="199dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="407dp"
-        android:layout_height="45dp"
+        android:layout_width="410dp"
+        android:layout_height="42dp"
         android:text="Notifications"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="236dp" />
+        tools:layout_editor_absoluteY="310dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="70dp"
         android:layout_height="75dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/Button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096"
         app:srcCompat="@android:drawable/arrow_down_float"
         tools:layout_editor_absoluteX="341dp" />
 
@@ -87,7 +72,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="0dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="302dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/BtnActivityOne"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:layout_cenetrInParent="true"
+        android:text="Language"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+

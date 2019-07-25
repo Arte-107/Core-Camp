@@ -23,8 +23,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.core_camp.R;
-import com.example.core_camp.ui.login.LoginViewModel;
-import com.example.core_camp.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 
