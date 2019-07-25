@@ -10,15 +10,20 @@
         android:id="@+id/Button"
         android:layout_width="405dp"
         android:layout_height="69dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
         android:background="#00F3EBEB"
         android:text="@string/settings"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="+id/toolbar"
         app:layout_constraintStart_toStartOf="parent" />
-
+		
+    <Button
+        android:id="@+id/button"
+        android:layout_width="409dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/language_page_title"
+        app:layout_constraintTop_toBottomOf="@+id/Button" />
 
     <Button
         android:id="@+id/button2"
@@ -50,6 +55,39 @@
         android:id="@+id/button5"
         android:layout_width="410dp"
         android:layout_height="42dp"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="Help and Support"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="410dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Campus"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="408dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:text="Accounts"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="407dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
         android:text="Notifications"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
@@ -65,7 +103,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/arrow_down_float"
         tools:layout_editor_absoluteX="341dp" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -86,4 +123,4 @@
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+</androidx.constraintlayout.widget.ConstraintLayout>
