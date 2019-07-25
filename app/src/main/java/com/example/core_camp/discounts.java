@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class discounts extends AppCompatActivity {
-    private
+    //private
 
 
     @Override
