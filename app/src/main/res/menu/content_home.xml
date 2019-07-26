@@ -6,13 +6,9 @@
     <item
         android:id="@+id/item1"
         android:icon="@drawable/ic_icon"
-
-
         android:title="@string/settings"
-        android:cdee8bf69c78851121eb8d52fa4846864a0279f5
-
-    9ac8bbd881a6f393e63c3f0c9d207b2ae61adbf7
         app:showAsAction="ifRoom" />
+
     <item
         android:id="@+id/item2"
         android:icon="@drawable/ic_icon"
