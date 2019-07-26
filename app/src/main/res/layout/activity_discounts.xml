@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:text="youtube"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="213dp" />
+        tools:layout_editor_absoluteY="213dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/Whataburger"
@@ -42,14 +43,16 @@
         android:layout_height="wrap_content"
         android:text="Hulu"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteY="412dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/Pizzahut"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Pizzahut"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="143dp"/>
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/subway"
@@ -57,7 +60,8 @@
         android:layout_height="wrap_content"
         android:text="subway"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="143dp" />
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
 
 
 

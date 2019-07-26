@@ -15,5 +15,17 @@
 
 
     <string name="account">ACCOUNT</string>
+    <string name="menu_home">1</string>
+    <string name="menu_gallery">2</string>
+    <string name="menu_slideshow">3</string>
+    <string name="menu_tools">4</string>
+    <string name="communicate">Communicate</string>
+    <string name="menu_share">6</string>
+    <string name="menu_send">7</string>
+    <string name="action_settings">Menu</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="campus">Campus</string>
+    <string name="accounts">Accounts</string>
+    <string name="notifications">Notifications</string>
     cdee8bf69c78851121eb8d52fa4846864a0279f5
 </resources>
