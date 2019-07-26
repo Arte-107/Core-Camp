@@ -7,14 +7,6 @@
     tools:context=".discounts">
 
     <Button
-        android:id="@+id/youtube"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
-        android:text="youtube"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <Button
         android:id="@+id/Whataburger"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
@@ -41,15 +33,14 @@
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Hulu"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="412dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
     <Button
         android:id="@+id/Pizzahut"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Pizzahut"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="143dp"/>
+        />
 
     <Button
         android:id="@+id/subway"
