@@ -42,9 +42,9 @@
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Hulu"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="412dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="296dp" />
     <Button
         android:id="@+id/Pizzahut"
         android:layout_width="395dp"
