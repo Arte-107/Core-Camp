@@ -2,7 +2,10 @@ package com.example.core_camp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,22 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BtnMove = findViewById(R.id.BtnActivityOne)
 
-        BtnMove.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View ) {
-
-                moveToActivityLangauge();
             }
-        });
 
         }
-        private void moveToActivityLangauge(){
-
-        Intent intent = new Intent(MainActivity.this, LangaugeActivity.class);
-        startActivity(intent);
-        }
-    }
-
-
