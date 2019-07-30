@@ -15,18 +15,29 @@
 
 
     <string name="account">ACCOUNT</string>
-    <string name="title_activity_menue">MenueActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+<<<<<<< HEAD
+    <string name="menu_home">string</string>
+    <string name="menu_gallery">string</string>
+    <string name="menu_slideshow">string</string>
+    <string name="menu_share">string</string>
+    <string name="menu_tools">string</string>
+=======
+    <string name="menu_home">1</string>
+    <string name="menu_gallery">2</string>
+    <string name="menu_slideshow">3</string>
+    <string name="menu_tools">4</string>
+    <string name="communicate">Communicate</string>
+    <string name="menu_share">6</string>
+    <string name="menu_send">7</string>
+    <string name="action_settings">Menu</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="campus">Campus</string>
+    <string name="accounts">Accounts</string>
+    <string name="notifications">Notifications</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log-in</string>
+    <string name="textview">TextView</string>
+>>>>>>> e36c28ab20d0231c0acd58cb8b23b4dc858e834f
+    cdee8bf69c78851121eb8d52fa4846864a0279f5
 </resources>
