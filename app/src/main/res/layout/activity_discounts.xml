@@ -6,59 +6,79 @@
     android:layout_height="match_parent"
     tools:context=".discounts">
 
-    <Button
-        android:id="@+id/youtube"
-        android:layout_width="395dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="youtube"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="213dp" />
+        android:text="Websites"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/Whataburger"
-        android:layout_width="395dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Whataburger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="351dp" />
+        app:layout_constraintVertical_bias="0.86" />
 
-    <Button
-        android:id="@+id/Netflix"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
-        android:text="Netflix"
-        app:layout_constraintTop_toBottomOf="@id/Whataburger"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="282dp" />
-
-    <Button
-        android:id="@+id/Hulu"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
-        android:text="Hulu"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="412dp" />
     <Button
         android:id="@+id/Pizzahut"
-        android:layout_width="395dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Pizzahut"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
 
     <Button
         android:id="@+id/subway"
-        android:layout_width="395dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="subway"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="143dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
 
+    <Button
+        android:id="@+id/starbucks"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Starbucks"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/mcdolands"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="McDonalds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/Burgerking"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Burgerking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
