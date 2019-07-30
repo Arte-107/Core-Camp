@@ -15,5 +15,10 @@
 
 
     <string name="account">ACCOUNT</string>
+    <string name="menu_home">string</string>
+    <string name="menu_gallery">string</string>
+    <string name="menu_slideshow">string</string>
+    <string name="menu_share">string</string>
+    <string name="menu_tools">string</string>
     cdee8bf69c78851121eb8d52fa4846864a0279f5
 </resources>
