@@ -2,6 +2,7 @@ package com.example.core_camp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,28 +10,29 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button BtnMove;
+    private Button languageActivity;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
 
-        BtnMove = findViewById(R.id.BtnActivityOne)
+         languageActivity = findViewById(R.id.BtnActivityOne);
+         languageActivity.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent intent = new Intent(view.getContext(), languageActivity.class);
+                 startActivity(intent);
+             }
+         });
 
-        BtnMove.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View ) {
-
-                moveToActivityLangauge();
-            }
-        });
-
-        }
-        private void moveToActivityLangauge(){
-
-        Intent intent = new Intent(MainActivity.this, LangaugeActivity.class);
-        startActivity(intent);
-        }
-    }
-
-
+         BtnMove = findViewById(R.id.accountb123);
+         BtnMove.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent intent = new Intent(view.getContext(), accountsActivity.class);
+                 startActivity(intent);
+             }
+         });
+     }
+}

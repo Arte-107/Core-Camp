@@ -1,4 +1,4 @@
-ackage com.example.core_camp;
+package com.example.core_camp;
 
 import android.os.Bundle;
 

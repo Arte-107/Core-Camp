@@ -14,7 +14,7 @@
     tools:targetApi="q"
     android:allowBackup=""
     android:fullBackupContent="">
-
+    
       <intent-filter>
           <action android:name="android.intent.action.MAIN"/>
           <category android:name="android.intent.category.LAUNCHER"/>
