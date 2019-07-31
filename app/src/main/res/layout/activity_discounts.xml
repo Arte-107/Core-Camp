@@ -7,12 +7,16 @@
     tools:context=".discounts">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:autoSizeTextType="uniform"
         android:text="Websites"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Whataburger"
@@ -20,10 +24,11 @@
         android:layout_height="wrap_content"
         android:text="Whataburger"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintVertical_bias="0.724" />
 
     <Button
         android:id="@+id/Pizzahut"
@@ -31,11 +36,10 @@
         android:layout_height="wrap_content"
         android:text="Pizzahut"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385" />
+        app:layout_constraintVertical_bias="0.286" />
 
     <Button
         android:id="@+id/subway"
@@ -46,7 +50,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.181" />
 
     <Button
         android:id="@+id/starbucks"
@@ -54,10 +58,11 @@
         android:layout_height="wrap_content"
         android:text="Starbucks"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/mcdolands"
@@ -65,20 +70,24 @@
         android:layout_height="wrap_content"
         android:text="McDonalds"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.764" />
+        app:layout_constraintVertical_bias="0.604" />
 
     <Button
         android:id="@+id/Burgerking"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Burgerking"
+        android:text="Burger king"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
