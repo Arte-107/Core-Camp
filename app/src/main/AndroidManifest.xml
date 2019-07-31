@@ -26,7 +26,7 @@
         <activity android:name=".languageActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".MenueActivitye" />
     </application>
+
 
 </manifest>
