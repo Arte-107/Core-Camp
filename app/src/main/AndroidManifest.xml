@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.core_camp">
+
     <application
         android:allowAudioPlaybackCapture="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,18 +12,20 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
-
+        <activity android:name=".cookies"/>
+        <activity android:name=".Krabs" />
         <activity android:name=".Activity2" />
-        <activity android:name=".accountsActivity"/>
-        <activity android:name=".Activity2"/>
-        <activity android:name=".discounts"/>
-        <activity android:name=".helpActivity"/>
-        <activity android:name=".languageActivity"/>
+        <activity android:name=".accountsActivity" />
+        <activity android:name=".discounts" />
+        <activity android:name=".helpActivity" />
+        <activity android:name=".languageActivity" />
         <activity android:name=".ui.login.LoginActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
