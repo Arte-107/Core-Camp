@@ -7,17 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class accountsActivity extends AppCompatActivity {
+public class notificationsActivity extends AppCompatActivity {
 
-    private Button btsm;
+
+    private Button btsmn;
     private Object MainActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accounts);
+        setContentView(R.layout.activity_notifications);
 
-        MainActivity = findViewById(R.id.btsm);
+        MainActivity = findViewById(R.id.btsmn);
         ((View) MainActivity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,8 +29,3 @@ public class accountsActivity extends AppCompatActivity {
 
     }
 }
-
-
-
-
-

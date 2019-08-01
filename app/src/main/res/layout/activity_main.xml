@@ -22,17 +22,17 @@
 
     <Button
         android:id="@+id/BtnActivityOne"
-        android:layout_width="409dp"
+        android:layout_width="410dp"
         android:layout_height="47dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="168dp"
         android:text="@string/language_page_title"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
 
 
     <Button
@@ -64,7 +64,7 @@
 
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/noteAct"
         android:layout_width="407dp"
         android:layout_height="45dp"
         android:layout_marginTop="8dp"
