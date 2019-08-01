@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Activity2 extends AppCompatActivity {
+
 private Button button1;
 private Button button2;
     @Override
@@ -26,10 +27,7 @@ private Button button2;
             Intent intent = new Intent(this,Krabs.class);
             startActivity(intent);
 
-        }
-    protected void onCreate2(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
+
         button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +37,7 @@ private Button button2;
         });
     }
     public void opencookies(){
-        Intent intent = new Intent(this,Krabs.class);
+        Intent intent = new Intent(this,cookies.class);
         startActivity(intent);
 
     }

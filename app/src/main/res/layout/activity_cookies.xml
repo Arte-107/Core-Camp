@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="240dp"
         android:layout_height="285dp"
-        android:text="Gy"
+        android:text="boi"
         android:layout_centerInParent="true" />
 
 </RelativeLayout>
