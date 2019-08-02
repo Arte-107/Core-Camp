@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/mbdis"
         android:layout_width="236dp"
         android:layout_height="61dp"
         android:layout_marginBottom="392dp"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/mbclubs"
         android:layout_width="232dp"
         android:layout_height="57dp"
         android:layout_marginBottom="304dp"
@@ -60,7 +60,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/mbmap"
         android:layout_width="229dp"
         android:layout_height="62dp"
         android:layout_marginBottom="204dp"

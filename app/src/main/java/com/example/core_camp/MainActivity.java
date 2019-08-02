@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     private Button BtnMove;
     private Button languageActivity;
     private Button noteAct;
-    private Button Homeb;
-    private Object CampMap;
+    private Button homebutton;
+    private Button CampMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         CampMap = findViewById(R.id.button3);
-        ((View) CampMap).setOnClickListener(new View.OnClickListener() {
+        CampMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MapActivity.class);
@@ -60,15 +60,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Homeb = findViewById(R.id.Homeb);
-        Homeb.setOnClickListener(new View.OnClickListener() {
+        homebutton = findViewById(R.id.homebutton);
+        homebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), HOMEActivity.class);
                 startActivity(intent);
-
             }
-
         });
     }
 }

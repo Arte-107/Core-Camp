@@ -24,5 +24,14 @@ public class HOMEActivity<button> extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        HOMEActivity = findViewById(R.id.mbdis);
+        ((View) HOMEActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), accountsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
