@@ -24,11 +24,20 @@
         android:layout_height="wrap_content"
         android:text="Whataburger"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/wings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Wingstop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/Pizzahut"
@@ -39,7 +48,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286" />
+        app:layout_constraintVertical_bias="0.282" />
 
     <Button
         android:id="@+id/subway"
@@ -53,16 +62,15 @@
         app:layout_constraintVertical_bias="0.181" />
 
     <Button
-        android:id="@+id/starbucks"
+        android:id="@+id/jack"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Starbucks"
+        android:text="Jack in the Box"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.83" />
 
     <Button
         android:id="@+id/mcdolands"
@@ -70,7 +78,6 @@
         android:layout_height="wrap_content"
         android:text="McDonalds"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -86,8 +93,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.393" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
