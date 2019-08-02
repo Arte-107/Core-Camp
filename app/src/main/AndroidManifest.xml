@@ -12,17 +12,19 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
+
         <activity android:name=".cookies"/>
         <activity android:name=".Krabs" />
-        <activity android:name=".Activity2" />
+        <activity android:name=".MapActivity"/>
+        <activity android:name=".notificationsActivity" />
+        <activity android:name=".Activity2"/>
         <activity android:name=".accountsActivity" />
         <activity android:name=".discounts" />
         <activity android:name=".helpActivity" />
         <activity android:name=".languageActivity" />
         <activity android:name=".ui.login.LoginActivity"/>
-        <activity android:name=".notificationsActivity"/>
         <activity android:name=".MainActivity">
-<intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
