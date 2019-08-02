@@ -42,7 +42,6 @@ public class signuplogin extends AppCompatActivity {
             startActivity(intent);
         }
 
-            }
+    }
 
-        }
 }
