@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button BtnMove;
     private Button languageActivity;
     private Button noteAct;
+    private Button Homeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +48,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        Homeb = findViewById(R.id.Homeb);
+        Homeb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), HOMEActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }
-
-
