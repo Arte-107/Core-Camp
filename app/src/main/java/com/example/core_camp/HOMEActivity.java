@@ -20,7 +20,7 @@ public class HOMEActivity<button> extends AppCompatActivity {
         ((View) HOMEActivity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), languageActivity.class);
+                Intent intent = new Intent(view.getContext(), MainActivity.class);
                 startActivity(intent);
             }
         });

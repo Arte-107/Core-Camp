@@ -54,12 +54,11 @@ public class MainActivity extends AppCompatActivity {
         ((View) CampMap).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,MapActivity.class);
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });
-    }
-}
+
 
         Homeb = findViewById(R.id.Homeb);
         Homeb.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
             }
+
         });
     }
 }
+
+
+
