@@ -5,31 +5,24 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class accountsActivity extends AppCompatActivity {
+public class HOMEActivity<button> extends AppCompatActivity {
 
-    private Button btsm;
-    private Object MainActivity;
+    private button gtsm;
+    private Object HOMEActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accounts);
+        setContentView(R.layout.activity_home);
 
-        MainActivity = findViewById(R.id.btsm);
-        ((View) MainActivity).setOnClickListener(new View.OnClickListener() {
+        HOMEActivity = findViewById(R.id.gtsm);
+        ((View) HOMEActivity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), MainActivity.class);
+                Intent intent = new Intent(view.getContext(), languageActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }
-
-
-
-
-
