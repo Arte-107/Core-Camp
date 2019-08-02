@@ -12,7 +12,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
-        <activity android:name=".notificationsActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".notificationsActivity" />
         <activity android:name=".Activity2" />
         <activity android:name=".accountsActivity" />
         <activity android:name=".Activity2" />
