@@ -5,19 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-public class HOMEActivity<button> extends AppCompatActivity {
+public class HOMEActivity extends AppCompatActivity {
 
-    private button gtsm;
-    private Object HOMEActivity;
+    private Button gtsm;
+    private Button mb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        HOMEActivity = findViewById(R.id.gtsm);
-        ((View) HOMEActivity).setOnClickListener(new View.OnClickListener() {
+        gtsm = findViewById(R.id.gtsm);
+        gtsm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), MainActivity.class);
@@ -25,8 +26,8 @@ public class HOMEActivity<button> extends AppCompatActivity {
             }
         });
 
-        HOMEActivity = findViewById(R.id.mbdis);
-        ((View) HOMEActivity).setOnClickListener(new View.OnClickListener() {
+        mb = findViewById(R.id.mbdis);
+        mb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), accountsActivity.class);

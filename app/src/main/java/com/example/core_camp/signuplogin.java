@@ -38,8 +38,7 @@ public class signuplogin extends AppCompatActivity {
 
     private void validate(String userName, String userPassword) {
 
-        if ((userName == "Admin") && (userPassword == "1234")) {
-            Intent intent = new Intent(MainActivity.this, HOMEActivity.class);
+
             if ((userName == "abrielledavila27@gmail.com") && (userPassword == "1234")) {
                 Intent intent = new Intent(signuplogin.this, HOMEActivity.class);
                 startActivity(intent);
@@ -48,6 +47,5 @@ public class signuplogin extends AppCompatActivity {
         }
 
     }
-}
 
-    }
+

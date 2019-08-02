@@ -20,8 +20,7 @@
         <activity android:name=".discounts" />
         <activity android:name=".helpActivity" />
         <activity android:name=".languageActivity" />
-        <activity android:name=".ui.login.LoginActivity"/>
-        <activity android:name=".HOMEActivity">
+        <activity android:name=".HOMEActivity"/>
         <activity android:name=".ui.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +31,6 @@
         <activity android:name=".MapActivity"></activity>
         <activity android:name=".notificationsActivity" />
         <activity android:name=".MainActivity"/>
-        <activity android:name=".HOMEActivity"></activity>
-        </activity>
     </application>
 
 </manifest>
