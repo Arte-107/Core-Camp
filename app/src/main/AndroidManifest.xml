@@ -12,24 +12,35 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
-
-        <activity android:name=".cookies"/>
-        <activity android:name=".Krabs" />
-        <activity android:name=".MapActivity"/>
-        <activity android:name=".notificationsActivity" />
-        <activity android:name=".Activity2"/>
+<<<<<<< HEAD
+        <activity android:name=".signuplogin" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Activity2" />
         <activity android:name=".accountsActivity" />
+        <activity android:name=".Activity2" />
         <activity android:name=".discounts" />
         <activity android:name=".helpActivity" />
         <activity android:name=".languageActivity" />
-        <activity android:name=".ui.login.LoginActivity"/>
+        <activity android:name=".ui.login.LoginActivity">
+=======
+        <activity android:name=".HOMEActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".notificationsActivity" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".accountsActivity" />
+        <activity android:name=".Activity2" />
         <activity android:name=".MainActivity">
+>>>>>>> e7e3665222732c319b50541b5819a6ba9b3c6c7c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".discounts" />
+        <activity android:name=".helpActivity" />
+        <activity android:name=".languageActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
     </application>
 
 </manifest>
