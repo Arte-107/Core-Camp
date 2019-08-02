@@ -13,6 +13,7 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
         <activity android:name=".HOMEActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
         <activity android:name=".notificationsActivity" />
         <activity android:name=".Activity2" />
         <activity android:name=".accountsActivity" />
