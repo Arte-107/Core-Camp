@@ -4,6 +4,7 @@
     package="com.example.core_camp">
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowAudioPlaybackCapture="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -28,9 +29,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".MapActivity"/>
         <activity android:name=".notificationsActivity" />
         <activity android:name=".MainActivity"/>
+        <activity android:name=".jack_in_Box"/>
+        <activity android:name=".mcdonalds"/>
+        <activity android:name=".subway"/>
+        <activity android:name=".pizzahut"/>
+        <activity android:name=".burgerking"/>
+        <activity android:name=".wingstop"/>
+        <activity android:name=".whataburger"/>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

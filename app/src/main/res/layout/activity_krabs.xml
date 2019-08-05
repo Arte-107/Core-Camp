@@ -5,11 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Krabs">
-
+    
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="385dp"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="New" />
     <TextView
         android:layout_width="240dp"
         android:layout_height="285dp"
-        android:text="cool"
+        android:text="Clubs"
         android:layout_centerInParent="true" />
 
 </RelativeLayout>
