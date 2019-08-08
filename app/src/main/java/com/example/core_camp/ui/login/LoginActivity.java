@@ -30,7 +30,6 @@ import com.example.core_camp.accountsActivity;
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
-    private Button login;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -115,31 +114,23 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
-
+                //start activity here
+                Intent intent = new Intent(v.getContext(), HOMEActivity.class);
+                startActivity(intent);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
-            }
-        });
-    }
-
-    private void updateUiWithUser(LoggedInUserView model) {
-        String welcome = getString(R.string.welcome) + model.getDisplayName();
-        // TODO : initiate successful logged in experience
-        Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-    }
-
-    private void showLoginFailed(@StringRes Integer errorString) {
-        Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
-
-
-        login = findViewById(R.id.login);
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), HOMEActivity.class);
-                startActivity(intent);
-
-            }
-        });
-    }
+        }
+    });
 }
+            private void updateUiWithUser(LoggedInUserView model) {
+                String welcome = getString(R.string.welcome) + model.getDisplayName();
+                // TODO : initiate successful logged in experience
+                Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+            }
+
+            private void showLoginFailed(@StringRes Integer errorString) {
+                Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
+
+            }
+}
+

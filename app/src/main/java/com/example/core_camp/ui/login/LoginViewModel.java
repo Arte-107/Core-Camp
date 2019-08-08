@@ -4,8 +4,12 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import android.content.Intent;
 import android.util.Patterns;
+import android.view.View;
+import android.widget.Button;
 
+import com.example.core_camp.HOMEActivity;
 import com.example.core_camp.data.LoginRepository;
 import com.example.core_camp.data.Result;
 import com.example.core_camp.data.model.LoggedInUser;
@@ -66,5 +70,8 @@ public class LoginViewModel extends ViewModel {
     // A placeholder password validation check
     private boolean isPasswordValid(String password) {
         return password != null && password.trim().length() > 5;
+
     }
 }
+
+
