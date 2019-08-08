@@ -8,39 +8,4 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Activity2">
-
-    <Button
-        android:id="@+id/k"
-        android:layout_width="385dp"
-        android:layout_height="172dp"
-        android:layout_alignEnd="@+id/k"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="0dp"
-        android:text="Clubs" />
-
-    <TextView
-        android:layout_width="244dp"
-        android:layout_height="390dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="120dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="55dp"
-        android:text="Choose one please." />
-
-    <Button
-        android:id="@+id/r"
-        android:layout_width="396dp"
-        android:layout_height="181dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="184dp"
-        android:text="activities" />
-
-
-</RelativeLayout>
+    tools:context=".Activity2"/>

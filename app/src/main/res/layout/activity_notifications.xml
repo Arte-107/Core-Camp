@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7B9E89"
     tools:context=".notificationsActivity">
 
     <Button
@@ -11,6 +12,8 @@
         android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="Notifictaions"
+        android:background="#0D2C54"
+        android:textColor="#F4FFFD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,4 +32,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enable Notifications "
+        android:textColor="#F4FFFD"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="199dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
