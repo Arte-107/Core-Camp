@@ -18,6 +18,13 @@
         android:layout_marginTop="-3dp"
         android:text="New" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Activities"
+        android:layout_alignParentRight="true" />
     <Button
         android:id="@+id/button31"
         android:layout_width="410dp"
@@ -28,7 +35,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="337dp"
-        android:text="Pokemon go event at 7pm/Saturday" />
+        android:text="cool event at 7pm/Saturday" />
 
     <Button
         android:id="@+id/button32"
@@ -52,7 +59,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="434dp"
-        android:text="Raid meet up at 5pm/Friday" />
+        android:text="Card meet up at 5pm/Friday" />
 
     <Button
         android:id="@+id/button34"

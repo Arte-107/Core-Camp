@@ -18,16 +18,27 @@
         android:layout_marginTop="-3dp"
         android:text="New" />
 
+    <TextView
+        android:layout_width="53dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="Clubs"
+        android:textAlignment="center"/>
     <Button
         android:id="@+id/button61"
-        android:layout_width="425dp"
-        android:layout_height="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-14dp"
-        android:layout_marginLeft="-14dp"
-        android:layout_marginTop="445dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="449dp"
         android:text="Chess club" />
 
     <Button
@@ -37,9 +48,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-6dp"
-        android:layout_marginLeft="-6dp"
-        android:layout_marginTop="358dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="356dp"
         android:text="Sports" />
 
     <Button
@@ -49,9 +60,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-5dp"
-        android:layout_marginLeft="-5dp"
-        android:layout_marginTop="536dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="525dp"
         android:text="Cheerleading" />
 
     <Button
