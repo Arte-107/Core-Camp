@@ -10,7 +10,9 @@ import android.widget.Button;
 public class HOMEActivity extends AppCompatActivity {
 
     private Button gtsm;
-    private Button mb;
+    private Button mbdis;
+    private Button mbclubs;
+    private Button mbmap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +28,35 @@ public class HOMEActivity extends AppCompatActivity {
             }
         });
 
-        mb = findViewById(R.id.mbdis);
-        mb.setOnClickListener(new View.OnClickListener() {
+        mbdis = findViewById(R.id.mbdis);
+        mbdis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), accountsActivity.class);
+                Intent intent = new Intent(view.getContext(), discounts.class);
                 startActivity(intent);
+            }
+        });
+
+        mbclubs = findViewById(R.id.mbclubs);
+        mbclubs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), Activity2.class);
+                startActivity(intent);
+            }
+        });
+        mbmap = findViewById(R.id.mbmap);
+        mbmap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), MapActivity.class);
+                startActivity(intent);
+
             }
         });
     }
 }
+
+
+
+
