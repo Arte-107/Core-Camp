@@ -6,10 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".cookies">
 
-    <TextView
-        android:layout_width="240dp"
-        android:layout_height="285dp"
-        android:text="Activities"
-        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="152dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="-3dp"
+        android:text="New" />
 
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="425dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginTop="445dp"
+        android:text="Chess club" />
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="410dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="358dp"
+        android:text="Sports" />
+
+    <Button
+        android:id="@+id/button63"
+        android:layout_width="410dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="536dp"
+        android:text="Cheerleading" />
+
+    <Button
+        android:id="@+id/button64"
+        android:layout_width="410dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="625dp"
+        android:text="Car Club" />
 </RelativeLayout>
