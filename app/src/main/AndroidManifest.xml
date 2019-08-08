@@ -15,8 +15,8 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="q">
-        <activity android:name=".tee"></activity>
-        <activity android:name=".ree" />
+        <activity android:name=".r"></activity>
+        <activity android:name=".k" />
         <activity android:name=".signuplogin" />
         <activity android:name=".Signup" />
         <activity android:name=".Activity2" />

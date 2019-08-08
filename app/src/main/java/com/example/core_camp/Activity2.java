@@ -8,38 +8,32 @@ import android.view.View;
 import android.widget.Button;
 
 public class Activity2 extends AppCompatActivity {
-
-private Button button1;
-private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
-        button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        Button cars = findViewById(R.id.k);
+        cars.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View V) {
-                openKrabs();
+            public void onClick(View view) {
             }
-        });
-    }
-        public void openKrabs(){
-            Intent intent = new Intent(this,Krabs.class);
+
+            Intent intent = new Intent(view.getContext(), k.class);
+
             startActivity(intent);
 
+        });
 
-        button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        Button kars = findViewById(R.id.r);
+        kars.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View V) {
-                opencookies();
+            public void onClick(View view) {
             }
+
+            Intent intent = new Intent(view.getContext(), r.class);
+
+            startActivity(intent);
+
         });
     }
-    public void opencookies(){
-        Intent intent = new Intent(this,cookies.class);
-        startActivity(intent);
-
-    }
 }
-
