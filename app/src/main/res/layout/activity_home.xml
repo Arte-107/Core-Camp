@@ -11,7 +11,7 @@
         android:id="@+id/textView8"
         android:layout_width="393dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="568dp"
+        android:layout_marginBottom="556dp"
         android:autoSizeTextType="uniform"
         android:text="Welcome to Core-Camp!"
         android:textColor="#fafafa"

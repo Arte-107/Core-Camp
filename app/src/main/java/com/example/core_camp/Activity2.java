@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class Activity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,24 +17,22 @@ public class Activity2 extends AppCompatActivity {
         cars.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+
+                Intent intent = new Intent(view.getContext(), k.class);
+
+                startActivity(intent);
             }
-
-            Intent intent = new Intent(view.getContext(), k.class);
-
-            startActivity(intent);
-
         });
 
         Button kars = findViewById(R.id.r);
         kars.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), r.class);
+
+                startActivity(intent);
             }
-
-            Intent intent = new Intent(view.getContext(), r.class);
-
-            startActivity(intent);
-
         });
     }
 }
